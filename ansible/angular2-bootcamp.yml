@@ -36,8 +36,8 @@
   - role: intellij
     intellij_user: "{{ user_account }}"
     become: True
-    version: 2016.3.3
-    build: 163.11103.6
+    version: 2017.1
+    build: 171.3780.107
 
   - role: rattermeyer.git
     git:
